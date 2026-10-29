@@ -1,6 +1,4 @@
-Laravel Project & Workforce Management System
 
-A comprehensive project and workforce management platform built with Laravel, designed to streamline project planning, staff administration, task assignment, worker coordination, and access control through a centralized management system.
 
 Features
 
@@ -68,34 +66,6 @@ Role-Based Access Control| Authorization and permissions
 Blade / JavaScript| User interface, depending on implementation
 HTML & CSS| Frontend structure and styling
 
-System Architecture
 
-The application follows a modular, layered architecture that separates request handling, business logic, and database operations.
 
-Laravel Application
-│
-├── Authentication
-│   ├── Login / Logout
-│   └── Session Management
-│
-├── Authorization
-│   ├── Roles
-│   └── Permissions
-│
-├── Project Management
-│   ├── Projects
-│   ├── Tasks
-│   └── Assignments
-│
-├── Staff Management
-│   ├── Staff Profiles
-│   ├── Departments
-│   └── Positions
-│
-├── Worker Management
-│   ├── Worker Profiles
-│   └── Work Assignments
-│
-└── Database
-    └── MySQL + Eloquent ORM
 
